@@ -1,0 +1,34 @@
+{
+    "penyakit": [
+        {
+            "nama": "flu",
+            "gejala": [
+                { "nama": "demam", "keyakinan": 0.8 },
+                { "nama": "batuk", "keyakinan": 0.6 },
+                { "nama": "pilek", "keyakinan": 0.7 },
+                { "nama": "sakit tenggorokan", "keyakinan": 0.5 },
+                { "nama": "sakit kepala", "keyakinan": 0.6 }
+            ]
+        },
+        {
+            "nama": "malaria",
+            "gejala": [
+                { "nama": "demam", "keyakinan": 0.9 },
+                { "nama": "menggigil", "keyakinan": 0.7 },
+                { "nama": "sakit kepala", "keyakinan": 0.6 },
+                { "nama": "nyeri otot", "keyakinan": 0.5 },
+                { "nama": "mual", "keyakinan": 0.4 }
+            ]
+        },
+        {
+            "nama": "tipes",
+            "gejala": [
+                { "nama": "demam", "keyakinan": 0.8 },
+                { "nama": "sakit kepala", "keyakinan": 0.6 },
+                { "nama": "nyeri otot", "keyakinan": 0.5 },
+                { "nama": "mual", "keyakinan": 0.4 },
+                { "nama": "ruam kulit", "keyakinan": 0.3 }
+            ]
+        }
+    ]
+}
