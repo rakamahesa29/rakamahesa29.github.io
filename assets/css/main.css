@@ -307,6 +307,61 @@ img {
     margin-right: auto;
 }
 
+/* hasil page */
+
+.penyakit-title h3 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 28px;
+    letter-spacing: 0.8px;
+    color: var(--secondary-color);
+}
+
+.penyakit-title p {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button-hasil-penyakit {
+    margin-top: 40px;
+    display: flex;
+    gap: 12px;
+}
+
+.button-konsultasi-dokter button {
+    border: 1px solid #4F6D7A;
+    background: transparent;
+    color: var(--secondary-color);
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 14px;
+}
+
+.button-lihat-obat button {
+    border: 1px solid #4F6D7A;
+    background: #4F6D7A;
+    color: var(--main-color);
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 14px;
+}
+
+.button-back-to-home {
+    display: flex;
+    justify-content: center;
+}
+
+.button-back-to-home button {
+    border: 1px solid #4F6D7A;
+    background: transparent;
+    color: var(--secondary-color);
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 14px;
+}
+
 /* form */
 label {
     color: var(--secondary-color);
@@ -334,9 +389,10 @@ label {
     margin-left: auto;
     margin-right: auto;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(5,1fr);
     gap: 20px;
     margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .gejala-penyakit button {
@@ -384,12 +440,25 @@ label {
     
 }
 @media screen and (min-width: 1024px) and (max-width: 1199px) {
-    
+    .gejala-penyakit {
+        grid-template-columns: repeat(4,1fr);
+    } 
 }
 @media screen and (min-width: 992px) and (max-width: 1023px) {
-    
+    .gejala-penyakit {
+        grid-template-columns: repeat(4,1fr);
+    }
+    .layanan-form {
+        width: 80%;
+    }  
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
+    .gejala-penyakit {
+        grid-template-columns: repeat(3,1fr);
+    }
+    .layanan-form {
+        width: 80%;
+    }  
 
 }
 @media screen and (min-width: 524px) and (max-width:767px) {
@@ -441,6 +510,12 @@ label {
     .navigation-menu-desktop {
         display: none;
     }
+    .gejala-penyakit {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .layanan-form {
+        width: 80%;
+    }  
 }
 @media screen and (min-width: 320px) and (max-width: 523px) {
     .navigation-desktop {
@@ -491,6 +566,12 @@ label {
     .navigation-menu-desktop {
         display: none;
     }
+    .gejala-penyakit {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .layanan-form {
+        width: 80%;
+    }  
 }
 @media screen and (min-width:280px) and (max-width: 319px) {
     .navigation-desktop {
@@ -541,4 +622,10 @@ label {
     .navigation-menu-desktop {
         display: none;
     }
+    .gejala-penyakit {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .layanan-form {
+        width: 80%;
+    } 
 }

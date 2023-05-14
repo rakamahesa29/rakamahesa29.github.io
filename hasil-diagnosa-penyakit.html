@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <title>SmartWorks - Form Diagnosa Penyakit</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <nav class="navigation-desktop">
+                <div class="navigation-content">
+                    <h1>SMART<br>WORKS</h1>
+                    <div class="navigation-menu-desktop">
+                        <a href="">Home</a>
+                        <a href="">Test Kesehatan</a>
+                        <a href="">About</a>
+                        <a href="">Contact</a>
+                    </div>
+                    <div class="navigation-menu-mobile">
+                        <div id="nav-icon-mobile">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+    <section class="layanan-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="penyakit-title">
+                        <h3><span id="namaPasien"></span>
+                            <span id="hasilDiagnosa"></span>
+                        </h3>
+                        <p id="hasilLainDiagnosa"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="care-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                    <div class="image-desc-care">
+                        <img src="./assets/images/care-image.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-6 col-sm-12 col-12">
+                    <div class="text-desc-care">
+                        <h3 id="judulHasilPenyakit"></h3>
+                        <p id="hasilPenyakit"></p>
+                    </div>
+                    <div class="button-hasil-penyakit">
+                        <div class="button-konsultasi-dokter">
+                            <button>Test Kesehatan Sekarang</button>
+                        </div>
+                        <div class="button-lihat-obat">
+                            <button>Lihat Rekomendasi Obat</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="layanan-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="button-back-to-home">
+                        <button onclick="backToHome()">Back To Home</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="watermark-website">
+                        <h3>SMART<br>WORKS</h3>
+                        <p>This website create by Raka Mahesa & Indra Heryudi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="watermark-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="copyright-website">
+                        <p>Copyright by smartworks 2023</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./assets/js/main.js"></script>
+    <script src="/assets/js/hasil.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
