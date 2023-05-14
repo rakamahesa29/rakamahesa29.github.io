@@ -56,5 +56,5 @@ function backToHome() {
   const diagnosaId = urlParams.get('id');
   localStorage.removeItem("gejala");
   localStorage.removeItem(`formData-${diagnosaId}`);
-  window.open('/index.html');
+  window.open("/index.html", "_self");
 }
