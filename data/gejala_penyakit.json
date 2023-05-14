@@ -5,7 +5,7 @@
             "gejala": [
                 {
                     "nama": "demam",
-                    "keyakinan": 0.8
+                    "keyakinan": 0.6
                 },
                 {
                     "nama": "batuk",
@@ -31,33 +31,11 @@
             "gejala": [
                 {
                     "nama": "demam",
-                    "keyakinan": 0.9
+                    "keyakinan": 0.8
                 },
                 {
                     "nama": "menggigil",
-                    "keyakinan": 0.7
-                },
-                {
-                    "nama": "sakit kepala",
-                    "keyakinan": 0.6
-                },
-                {
-                    "nama": "nyeri otot",
-                    "keyakinan": 0.5
-                },
-                {
-                    "nama": "mual",
-                    "keyakinan": 0.4
-                }
-            ],
-            "deskripsi" : "Malaria adalah penyakit yang disebabkan oleh parasit yang ditularkan melalui gigitan nyamuk. Gejala umumnya dapat dimulai sekitar 10-15 hari setelah gigitan nyamuk dan meliputi demam tinggi, menggigil, sakit kepala, mual, muntah, dan kelelahan. Gejala-gejala ini seringkali berlangsung dalam siklus, dengan periode demam dan kedinginan yang intens diikuti oleh periode normal. Dalam kasus yang parah, malaria dapat menyebabkan komplikasi serius seperti anemia berat, gagal ginjal, dan kerusakan otak."
-        },
-        {
-            "nama": "tipes",
-            "gejala": [
-                {
-                    "nama": "demam",
-                    "keyakinan": 0.8
+                    "keyakinan": 0.9
                 },
                 {
                     "nama": "sakit kepala",
@@ -74,6 +52,32 @@
                 {
                     "nama": "ruam kulit",
                     "keyakinan": 0.3
+                }
+            ],
+            "deskripsi" : "Malaria adalah penyakit yang disebabkan oleh parasit yang ditularkan melalui gigitan nyamuk. Gejala umumnya dapat dimulai sekitar 10-15 hari setelah gigitan nyamuk dan meliputi demam tinggi, menggigil, sakit kepala, mual, muntah, dan kelelahan. Gejala-gejala ini seringkali berlangsung dalam siklus, dengan periode demam dan kedinginan yang intens diikuti oleh periode normal. Dalam kasus yang parah, malaria dapat menyebabkan komplikasi serius seperti anemia berat, gagal ginjal, dan kerusakan otak."
+        },
+        {
+            "nama": "tipes",
+            "gejala": [
+                {
+                    "nama": "demam",
+                    "keyakinan": 0.9
+                },
+                {
+                    "nama": "sakit kepala",
+                    "keyakinan": 0.6
+                },
+                {
+                    "nama": "nyeri otot",
+                    "keyakinan": 0.5
+                },
+                {
+                    "nama": "mual",
+                    "keyakinan": 0.4
+                },
+                {
+                    "nama": "ruam kulit",
+                    "keyakinan": 0.7
                 }
             ],
             "deskripsi" : "Tipes, juga dikenal sebagai demam tifoid, adalah infeksi bakteri yang dapat menyebar ke seluruh tubuh dan mempengaruhi banyak organ. Gejala awalnya biasanya meliputi demam tinggi yang bisa mencapai 39 hingga 40 derajat Celsius, sakit kepala, lemas atau letih, nyeri perut, dan kadang-kadang mual atau muntah. Seiring berjalannya waktu, pasien juga bisa mengalami perubahan nafsu makan, diare atau sembelit, dan ruam kulit berupa bintik-bintik merah kemerahan. Jika tidak ditangani, tipes bisa menjadi serius dan berpotensi mengancam jiwa."

@@ -33,7 +33,7 @@ window.onload = function() {
 
     const penyakitLain = hasilDiagnosa.slice(1);
     if (penyakitLain.length > 0) {
-      teksPenyakitLain += "namun ada kemungkinan penyakit lain yang diderita seperti";
+      teksPenyakitLain += "namun ada kemungkinan penyakit lain yang diderita seperti ";
       for (const diagnosa of penyakitLain) {
         // teksHasil += `${diagnosa.penyakit} (dengan nilai keyakinan ${(diagnosa.keyakinan * 100).toFixed(2)}%)<br>`;
         teksPenyakitLain += `${diagnosa.penyakit} (dengan nilai keyakinan <span class="keyakinan-penyakit">${(diagnosa.keyakinan * 100).toFixed(2)}</span>%) `;
