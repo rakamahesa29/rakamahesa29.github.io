@@ -45,8 +45,9 @@ window.onload = function() {
     document.getElementById("hasilPenyakit").innerHTML = deskripsiHasil;
     document.getElementById("hasilLainDiagnosa").innerHTML = teksPenyakitLain; // Menampilkan penyakit lain
   } else {
-    elemHasilDiagnosa.innerHTML = "Tidak dapat mendiagnosa penyakit. Harap konsultasikan dengan dokter.";
-    document.getElementById("hasilPenyakit").innerHTML = "";
+    elemHasilDiagnosa.innerHTML = "Gejala yang anda masukan tidak dapat kami diagnosa. <br> <br> Harap konsultasikan dengan dokter atau input ulang gejala anda.";
+    document.getElementById("judulHasilPenyakit").innerHTML = "SMARTWORKS"
+    document.getElementById("hasilPenyakit").innerHTML = "Tes kesehatan online kami dapat membantu Anda memahami gejala penyakit yang mungkin Anda alami, namun tidak boleh dianggap sebagai pengganti kunjungan ke dokter. Informasi yang kami berikan didasarkan pada referensi medis yang terpercaya, tetapi kami sangat menyarankan untuk selalu berdiskusi dengan dokter pribadi Anda sebelum mengambil tindakan medis apa pun.";
     elemHasilPenyakitLain.innerHTML = ""; // Mengosongkan penyakit lain jika tidak ada hasil diagnosa
   }
 }
