@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", async function () {
   });
 
   async function ambilDataGejalaPenyakit() {
-    const response = await fetch("./data/gejala_penyakit.json");
+    const response = await fetch("/data/gejala_penyakit.json");
     const data = await response.json();
     return data;
   }
