@@ -26,6 +26,7 @@ input {
     text-decoration: none;
     margin-bottom: 0px;
     color: var(--secondary-color);
+    text-transform: none;
 }
 
 img {
