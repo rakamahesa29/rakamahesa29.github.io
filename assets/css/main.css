@@ -23,7 +23,7 @@ button,
 label,
 input {
     font-family: 'Inter', sans-serif;
-    text-decoration: none;
+    text-decoration: none !important;
     margin-bottom: 0px;
     color: var(--secondary-color);
     text-transform: none;
