@@ -141,4 +141,9 @@ document.addEventListener("DOMContentLoaded", async function () {
 .catch((error) => console.error("Error:", error));
 
 
+function navMobile() {
+  let open = document.getElementById("mobileMenu");
+  open.classList.toggle("open-menu");
+}
+
         

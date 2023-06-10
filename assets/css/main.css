@@ -68,6 +68,7 @@ img {
 
 .navigation-menu-mobile {
     display: none;
+    z-index: 1000;
 }
 
 #nav-icon-mobile {
@@ -436,6 +437,9 @@ label {
     color: var(--secondary-color);
     transition: all ease .3s;
 }
+.mobile-menu {
+    display: none;
+} 
 
 /* responsive */
 @media screen and (min-width: 1200px) {
@@ -445,6 +449,9 @@ label {
     .gejala-penyakit {
         grid-template-columns: repeat(4,1fr);
     } 
+    .mobile-menu {
+        display: none;
+    } 
 }
 @media screen and (min-width: 992px) and (max-width: 1023px) {
     .gejala-penyakit {
@@ -452,6 +459,9 @@ label {
     }
     .layanan-form {
         width: 80%;
+    }
+    .mobile-menu {
+        display: none;
     }  
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -460,12 +470,16 @@ label {
     }
     .layanan-form {
         width: 80%;
+    }
+    .mobile-menu {
+        display: none;
     }  
 
 }
 @media screen and (min-width: 524px) and (max-width:767px) {
     .navigation-desktop {
         padding: 20px 20px;
+        margin-top: 40px;
     }
     .navigation-menu-mobile {
         display: block;
@@ -517,11 +531,46 @@ label {
     }
     .layanan-form {
         width: 80%;
+    }
+    .mobile-menu {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 0vw;
+        height: 100vh;
+        background-color: #00000050;
+        transition: all ease .5s;
+    }
+    .content-mobile-menu {
+        height: 100vh;
+        width: 80vw;
+        margin-left: auto;
+        padding: 70px 30px 30px 30px;
+        text-align: start;
+        background-color: var(--main-color);
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .content-mobile-menu p {
+        font-size: 18px;
+    }
+    .content-mobile-menu p:hover,
+    .content-mobile-menu p:active,
+    .content-mobile-menu p:focus {
+        font-weight: 600;
+    }
+    .open-menu {
+        right: 0;
+        width: 100vw;
+        transition: all ease .5s;
     }  
 }
 @media screen and (min-width: 320px) and (max-width: 523px) {
     .navigation-desktop {
         padding: 20px 20px;
+        margin-top: 40px;
     }
     .navigation-menu-mobile {
         display: block;
@@ -573,11 +622,46 @@ label {
     }
     .layanan-form {
         width: 80%;
-    }  
+    } 
+    .mobile-menu {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 0vw;
+        height: 100vh;
+        background-color: #00000050;
+        transition: all ease .5s;
+    }
+    .content-mobile-menu {
+        height: 100vh;
+        width: 80vw;
+        margin-left: auto;
+        padding: 70px 30px 30px 30px;
+        text-align: start;
+        background-color: var(--main-color);
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .content-mobile-menu p {
+        font-size: 18px;
+    }
+    .content-mobile-menu p:hover,
+    .content-mobile-menu p:active,
+    .content-mobile-menu p:focus {
+        font-weight: 600;
+    }
+    .open-menu {
+        right: 0;
+        width: 100vw;
+        transition: all ease .5s;
+    }
 }
 @media screen and (min-width:280px) and (max-width: 319px) {
     .navigation-desktop {
         padding: 20px 20px;
+        margin-top: 40px;
     }
     .navigation-menu-mobile {
         display: block;
@@ -629,5 +713,39 @@ label {
     }
     .layanan-form {
         width: 80%;
+    }
+    .mobile-menu {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 0vw;
+        height: 100vh;
+        background-color: #00000050;
+        transition: all ease .5s;
+    }
+    .content-mobile-menu {
+        height: 100vh;
+        width: 80vw;
+        margin-left: auto;
+        padding: 70px 30px 30px 30px;
+        text-align: start;
+        background-color: var(--main-color);
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .content-mobile-menu p {
+        font-size: 18px;
+    }
+    .content-mobile-menu p:hover,
+    .content-mobile-menu p:active,
+    .content-mobile-menu p:focus {
+        font-weight: 600;
+    }
+    .open-menu {
+        right: 0;
+        width: 100vw;
+        transition: all ease .5s;
     } 
 }
