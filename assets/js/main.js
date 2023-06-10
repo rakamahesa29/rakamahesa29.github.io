@@ -66,7 +66,8 @@ document.addEventListener("DOMContentLoaded", async function () {
    const gejalaPasien = JSON.parse(localStorage.getItem("gejala")) || [];
    const hasilDiagnosa = fuzzyDiagnosa(gejalaPasien, gejalaPenyakit);
    localStorage.setItem(`hasilDiagnosa-${diagnosaId}`, JSON.stringify(hasilDiagnosa));
-   window.open(`hasil-diagnosa-penyakit.html?id=${diagnosaId}`, "_self");
+  //  open blank tab
+   window.open(`hasil-diagnosa-penyakit.html?id=${diagnosaId}`, "_blank");
   }
 
   const data = await ambilDataGejalaPenyakit();
