@@ -438,8 +438,8 @@ label {
     transition: all ease .3s;
 }
 .mobile-menu {
-    display: none;
-} 
+    visibility: hidden;
+}
 
 /* responsive */
 @media screen and (min-width: 1200px) {
@@ -449,9 +449,7 @@ label {
     .gejala-penyakit {
         grid-template-columns: repeat(4,1fr);
     } 
-    .mobile-menu {
-        display: none;
-    } 
+   
 }
 @media screen and (min-width: 992px) and (max-width: 1023px) {
     .gejala-penyakit {
@@ -461,8 +459,9 @@ label {
         width: 80%;
     }
     .mobile-menu {
-        display: none;
-    }  
+        visibility: hidden;
+    }
+    
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .gejala-penyakit {
@@ -472,9 +471,8 @@ label {
         width: 80%;
     }
     .mobile-menu {
-        display: none;
-    }  
-
+        visibility: hidden;
+    }
 }
 @media screen and (min-width: 524px) and (max-width:767px) {
     .navigation-desktop {
@@ -533,7 +531,7 @@ label {
         width: 80%;
     }
     .mobile-menu {
-        position: absolute;
+        position: fixed;
         top: 0;
         right: 0;
         width: 0vw;
@@ -565,6 +563,9 @@ label {
         right: 0;
         width: 100vw;
         transition: all ease .5s;
+    }
+    .mobile-menu {
+        visibility: visible;
     }  
 }
 @media screen and (min-width: 320px) and (max-width: 523px) {
@@ -624,7 +625,7 @@ label {
         width: 80%;
     } 
     .mobile-menu {
-        position: absolute;
+        position: fixed;
         top: 0;
         right: 0;
         width: 0vw;
@@ -656,6 +657,9 @@ label {
         right: 0;
         width: 100vw;
         transition: all ease .5s;
+    }
+    .mobile-menu {
+        visibility: visible;
     }
 }
 @media screen and (min-width:280px) and (max-width: 319px) {
@@ -715,7 +719,7 @@ label {
         width: 80%;
     }
     .mobile-menu {
-        position: absolute;
+        position: fixed;
         top: 0;
         right: 0;
         width: 0vw;
@@ -747,5 +751,8 @@ label {
         right: 0;
         width: 100vw;
         transition: all ease .5s;
+    }
+    .mobile-menu {
+        visibility: visible;
     } 
 }
